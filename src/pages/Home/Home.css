@@ -1,0 +1,62 @@
+.home{
+    background: url(../../assets/home.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 1.4rem 10px;
+}
+
+.text-home{
+    background-color:#1a1a1ae8;
+    width: 100%;
+    height: 400px;
+    padding: 6rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text-home h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.text-home strong{
+    color: #F6B332;
+    font-size: 5rem;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.btn button{
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: none;
+    padding: 1rem;
+    background-color: #F6B332;
+    color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+.btn :hover{
+    color: azure;
+}
+
+@media(max-width:900px){
+    html{
+        font-size: 60%;
+    }
+}
+
+@media(max-width:838px){
+    html{
+        font-size: 55%;
+    }
+}

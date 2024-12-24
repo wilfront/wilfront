@@ -1,0 +1,112 @@
+.home2{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: top;
+    text-align: center;
+    padding: 1.4rem 40px;
+    height: auto;
+}
+
+.text-home2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-home2 h1{
+    border-bottom: 1px solid #F6B332;
+}
+
+.text-home2 p {
+    font-size: 1.7rem;
+}
+
+.img-services{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.img-serv{
+    display: grid;
+    gap: 40px;
+    grid-template-columns:repeat(auto-fit, 290px) ;
+    grid-template-rows: 250px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+
+}
+
+.img-1{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../../assets/corte.jpg);
+    background-size: cover;
+    border: 4px solid #F6B332;
+}
+
+.img-2{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../../assets/barba.jpg);
+    background-size: cover;
+    border: 4px solid #F6B332;
+}
+
+.img-3{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../../assets/maquina.jpg);
+    background-size: cover;
+    border: 4px solid #F6B332;
+}
+
+.img-1, .img-2, .img-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    font-size: 1.5rem;
+    padding: 2rem;
+    border-radius: 25px;
+    font-weight: 450;
+}
+
+.img-1 h1, .img-2 h1, .img-3 h1{
+    color: #F6B332;
+}
+
+.btn-services{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+nav button{
+    background-color: #F6B332;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+nav button:hover{
+    color: white;
+}
+
+@media(max-width:1029px){
+    .img-serv{
+        grid-template-rows: 250px 250px;
+    }
+}
+
+@media(max-width:699px){
+    .img-serv{
+        grid-template-rows: 250px 250px 250px;
+    }
+}

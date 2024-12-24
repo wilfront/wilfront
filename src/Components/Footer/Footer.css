@@ -1,0 +1,45 @@
+.footer{
+    background-color:#1a1a1af1;
+    width: 100%;
+    color: white;
+    height: 250px;
+    padding: 1.4rem 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.nav-footer{
+    color: white;
+    font-size: 1.6rem;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.rede-social {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.direitos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1.4rem 40px;
+    background-color: #1a1a1af1;
+    color: #5F5756;
+    border-top: 1px solid #5F5756;
+    font-size: 1.7rem;
+    height: 20px;
+}
+
+.menu :hover{
+    color: #F6B332;
+}
+

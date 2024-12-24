@@ -1,0 +1,32 @@
+.localização{
+    background:linear-gradient(rgba(97, 97, 97, 0.5), rgba(177, 176, 176, 0.5)),url(../../assets/barber-shop-tools-arrangement.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    padding: 1rem 40px;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+.endereço{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    font-size: 1.5rem;
+    background-color: rgba(26, 25, 25, 0.884);
+    height: auto;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 20px;
+}
+
+.localização p {
+    color:#bbbbbb;
+}
+
+

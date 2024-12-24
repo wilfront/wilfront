@@ -1,0 +1,50 @@
+.services{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../../assets/services-fundo.jpg);
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 1.4rem 40px;
+    justify-content: center;
+    color:rgb(199, 198, 198);
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.services h1{
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.text-services{
+    display: flex;
+    font-size: 5rem;
+    padding: 1rem 40px;
+    text-align: center;
+    flex-direction:column;
+    gap: 20px;
+    background-color: rgba(15, 15, 15, 0.692);
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    border-top: 1px solid #f6b332;
+}
+
+.corte, .barba, .combo, .corte-infantil{
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.corte h6, .barba h6, .combo h6, .corte-infantil h6{
+    font-weight: 200;
+}
+
